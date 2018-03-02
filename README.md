@@ -141,3 +141,10 @@ git pull --rebase origin master
 执行上面代码后可以看到本地代码库中多了README.md文件
 4、此时再执行语句 git push -u origin master即可完成代码上传到github
 
+
+总结：（配置好了git，上传项目步骤）
+1、新建文件夹，右键git bash here，输入git init
+2、输入 git add 文件名（当然也可以添加所有文件 git add .( .前有一个空格) 或者 -A 添加全部文件） 
+3、输入 git commit -m 提交说明 将文件提交至本地repository中，离线提交，-m后面是提交注释的内容
+4、输入 git remote add origin git@github.com:your github name/reprository.git 连接远程服务器，origin 指远程服务器
+5、最后输入 git push -u origin master -f
