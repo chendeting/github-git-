@@ -152,5 +152,5 @@ git pull --rebase origin master
 总结：（修改了文件内容，上传步骤）
 1、右键git bash here，输入git add 文件名（当然也可以添加所有文件 git add .( .前有一个空格) 或者 -A 添加全部文件）
 2、输入 git commit -m 提交说明
-3、git push https://github.com/chendeting/github-git-.git
+3、git push https://github.com/chendeting/github-git-.git ，当然也可以输入：git push -u origin master -f
 注意： 会让你输入your github name，回车，然后输入登录密码，上传成功
