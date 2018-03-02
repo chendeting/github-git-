@@ -148,3 +148,6 @@ git pull --rebase origin master
 3、输入 git commit -m 提交说明 将文件提交至本地repository中，离线提交，-m后面是提交注释的内容
 4、输入 git remote add origin git@github.com:your github name/reprository.git 连接远程服务器，origin 指远程服务器
 5、最后输入 git push -u origin master -f
+
+总结：（修改了文件内容，上传步骤）
+1、
